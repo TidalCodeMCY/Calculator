@@ -1,3 +1,8 @@
+body {
+    background-color: grey;
+    color: aqua;
+}
+
 .numbers {
     position: absolute;
     display: grid;
@@ -15,26 +20,30 @@
     height: 380px;
     width: 300px;
     padding-bottom: 10px;
-    right: 200px;
+    left: 41%;
+    right: 41%;
     padding-left: 28px;
     border-radius: 10px;
     background-color: black;
     color: whitesmoke;
+    padding-top: 10px;
+    bottom: 200px;
 }
 
 .final {
     display: grid;
     align-items: center;
     grid-area: final;
-    font-size: 26px;
+    font-size: 34px;
     margin-left: 12px;
-    height: 60px;
+    height: 70px;
     width: 78%;
     border: 1px dashed black;
     background-color: aliceblue;
     border-radius: 20px;
     color: black;
     padding-left: 10px;
+    margin-bottom: 5px;
 }
 
 .one {
@@ -215,4 +224,23 @@
     height: 69%;
     cursor: pointer;
     border-radius: 6px;
+}
+
+.keypad:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+ul {
+    position: relative;
+    left: 38.5%;
+    right: 38.5%;
+}
+
+footer {
+    position: absolute;
+    bottom: 70px;
+    left: 48%;
+    right: 48%;
+    width: 150px;
 }
