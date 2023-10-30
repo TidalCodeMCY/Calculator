@@ -1,0 +1,218 @@
+.numbers {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+        'final final final final final'
+        'one two three zero equal'
+        'four five six divide equal'
+        'seven eight nine multiply clear'
+        'add add subtract multiply clear';
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    border: 1px solid black;
+    height: 380px;
+    width: 300px;
+    padding-bottom: 10px;
+    right: 200px;
+    padding-left: 28px;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.final {
+    display: grid;
+    align-items: center;
+    grid-area: final;
+    font-size: 26px;
+    margin-left: 12px;
+    height: 60px;
+    width: 78%;
+    border: 1px dashed black;
+    background-color: aliceblue;
+    border-radius: 20px;
+    color: black;
+    padding-left: 10px;
+}
+
+.one {
+    grid-area: one;
+    padding: 20px;
+    margin: 0;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.two {
+    grid-area: two;
+    padding: 20px;
+    margin: 0;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.three {
+    grid-area: three;
+    padding: 20px;
+    margin: 0;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.zero {
+    grid-area: zero;
+    padding: 20px;
+    margin: 0;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.four {
+    grid-area: four;
+    padding: 20px;
+    margin: 0;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.five {
+    grid-area: five;
+    padding: 20px;
+    margin: 0;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.six {
+    grid-area: six;
+    padding: 20px;
+    margin: 0;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.divide {
+    grid-area: divide;
+    padding: 20px;
+    margin: 0;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.seven {
+    grid-area: seven;
+    padding: 20px;
+    margin: 0;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.eight {
+    grid-area: eight;
+    padding: 20px;
+    margin: 0;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.nine {
+    grid-area: nine;
+    padding: 20px;
+    margin: 0;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.multiply {
+    display: grid;
+    grid-area: multiply;
+    padding: 20px;
+    margin: 0;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    height: 70%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.add {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-area: add;
+    padding: 20px;
+    margin: 0;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.clear {
+    display: grid;
+    grid-area: clear;
+    padding: 20px;
+    margin: 0;
+    margin-left: 1px;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: red;
+}
+
+.subtract {
+    grid-area: subtract;
+    padding: 20px;
+    margin: 0;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.equal {
+    display: grid;
+    grid-area: equal;
+    padding: 20px;
+    margin: 1px;
+    margin-right: 2px;
+    border: 1px solid whitesmoke;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    height: 69%;
+    cursor: pointer;
+    border-radius: 6px;
+}
